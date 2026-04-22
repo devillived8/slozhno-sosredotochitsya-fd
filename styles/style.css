@@ -355,8 +355,12 @@
   /* End gallery */
 }
 
+.footer__title{
+  text-shadow: 2px 2px 0 var(--color-accent);
+}
+
 @media (width >= 1024px) {
-  
+
   .header__subtitle-group {
     max-inline-size: 491px;
   }
