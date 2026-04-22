@@ -11,7 +11,7 @@
   --text-color-subtitle: #353430;
   --text-color-hover: #32312d;
   --text-color-regular: #353430;
-  --bg-color: rgba(0 0 40 / 1);
+  --bg-color: #FFF1F7;
   --color-focus: #353430;
   --color-shadow: #ff8dcb;
   --color-decorated: #353430;
@@ -37,7 +37,7 @@
     --text-color-subtitle: #353430;
     --text-color-hover: #32312d;
     --text-color-regular: #353430;
-    --bg-color: rgba(0 0 40 / 1);
+    --bg-color: #FFF1F7;
     --color-focus: #353430;
     --color-shadow: #ff8dcb;
     --color-decorated: #353430;

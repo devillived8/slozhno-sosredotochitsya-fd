@@ -12,7 +12,7 @@
   --text-color-subtitle: #000028;
   --text-color-hover: rgba(255 0 112 / 0.4);
   --text-color-regular: rgba(241 178 206 / 1);
-  --bg-color: rgba(0 0 40 / 1);
+  --bg-color: #000028;
   --color-focus: rgba(255 0 112 / 1);
   --color-shadow: #ff0070;
   --color-decorated: rgba(255 0 112 / 1);
@@ -35,7 +35,7 @@
     --text-color-subtitle: #000028;
     --text-color-hover: rgba(255 0 112 / 0.4);
     --text-color-regular: rgba(241 178 206 / 1);
-    --bg-color: rgba(0 0 40 / 1);
+    --bg-color: #000028;
     --color-focus: rgba(255 0 112 / 1);
     --color-shadow: #ff0070;
     --color-decorated: rgba(255 0 112 / 1);
