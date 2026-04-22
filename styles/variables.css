@@ -1,27 +1,22 @@
 :root {
-
   --bg-img: url(/images/cover-image-dark.png);
 
   /* Шрифт */
   --font-main: 'IBM Plex Mono';
 
-
   /* Цвета */
   --color-accent: rgba(255 0 112 / 1);
   --text-color-main-title: rgba(219 0 255 / 1);
-  --text-color-title: #FF0070;
-  --text-color-subtitle: #FF0070;
+  --text-color-title: #ff0070;
+  --text-color-subtitle: #ff0070;
   --text-color-hover: rgba(255 0 112 / 0.4);
   --text-color-regular: rgba(241 178 206 / 1);
   --bg-color: rgba(0 0 40 / 1);
   --color-focus: rgba(255 0 112 / 1);
-  --color-shadow: #FF0070;
+  --color-shadow: #ff0070;
   --color-decorated: rgba(255 0 112 / 1);
   --color-active: rgba(255 0 112 / 1);
   --text-color-accent: rgba(255 0 112 / 1);
-
-
-
 
   /* Отступы */
   --sm-space: 10px;

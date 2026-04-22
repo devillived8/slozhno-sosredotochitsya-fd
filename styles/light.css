@@ -4,21 +4,16 @@
   переключая тему
 */
 
-
-
-
-
-
 :root.theme-light {
   --bg-img: url(/images/cover-image-light.png);
-  --text-color-main-title: #FFC2E6;
-  --color-accent: #FF8DCB;
+  --text-color-main-title: #ffc2e6;
+  --color-accent: #ff8dcb;
   --text-color-subtitle: #353430;
-  --text-color-hover: #32312D;
+  --text-color-hover: #32312d;
   --text-color-regular: #353430;
   --bg-color: rgba(0 0 40 / 1);
   --color-focus: #353430;
-  --color-shadow: #FF8DCB;
+  --color-shadow: #ff8dcb;
   --color-decorated: #353430;
   --color-active: #353430;
   --text-color-accent: #353430;
@@ -34,26 +29,24 @@
 }
 
 @media (prefers-color-scheme: light) {
-
+  
   :root {
-  --bg-img: url(/images/cover-image-light.png);
-  --text-color-main-title: #FFC2E6;
-  --color-accent: #FF8DCB;
-  --text-color-subtitle: #353430;
-  --text-color-hover: #32312D;
-  --text-color-regular: #353430;
-  --bg-color: rgba(0 0 40 / 1);
-  --color-focus: #353430;
-  --color-shadow: #FF8DCB;
-  --color-decorated: #353430;
-  --color-active: #353430;
-  --text-color-accent: #353430;
-  --text-color-title: #353430;
+    --bg-img: url(/images/cover-image-light.png);
+    --text-color-main-title: #ffc2e6;
+    --color-accent: #ff8dcb;
+    --text-color-subtitle: #353430;
+    --text-color-hover: #32312d;
+    --text-color-regular: #353430;
+    --bg-color: rgba(0 0 40 / 1);
+    --color-focus: #353430;
+    --color-shadow: #ff8dcb;
+    --color-decorated: #353430;
+    --color-active: #353430;
+    --text-color-accent: #353430;
+    --text-color-title: #353430;
   }
 
-
-    .header__rec {
-  display: none;
+  .header__rec {
+    display: none;
+  }
 }
-} 
-
