@@ -5,7 +5,7 @@
 */
 
 :root.theme-dark {
-  --bg-img: url(/images/cover-image-dark.png);
+  --bg-img: url(../images/cover-image-dark.png);
   /* Цвета */
   --color-accent: rgba(255 0 112 / 1);
   --text-color-main-title: rgba(219 0 255 / 1);
@@ -26,9 +26,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  
+
   :root {
-    --bg-img: url(/images/cover-image-dark.png);
+    --bg-img: url(../images/cover-image-dark.png);
     --color-accent: rgba(255 0 112 / 1);
     --text-color-main-title: rgba(219 0 255 / 1);
     --text-color-title: rgba(219 0 255 / 1);
