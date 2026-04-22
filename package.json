@@ -1,0 +1,26 @@
+{
+  "name": "slozhno-sosredotochitsya-fd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "stylelint:fix": "stylelint \"**/*.css\" --fix",
+    "stylelint:check": "stylelint \"**/*.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devillived8/slozhno-sosredotochitsya-fd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devillived8/slozhno-sosredotochitsya-fd/issues"
+  },
+  "homepage": "https://github.com/devillived8/slozhno-sosredotochitsya-fd#readme",
+  "devDependencies": {
+    "prettier": "^3.8.3",
+    "stylelint": "^17.8.0"
+  }
+}
