@@ -290,7 +290,11 @@
   .concentration--what {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(70px, auto);
+    grid-template-rows: minmax(auto, auto);
+  }
+
+  .concentration--what .concentration__content-wrapper {
+    margin-block-start: 0;
   }
 
   .concentration--what .concentration__title--what {
@@ -378,13 +382,14 @@
   /* Section Why */
 
   .concentration--what .concentration__content-wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-block-start: var(--md-space);
     gap: var(--md-space);
   }
 
   .concentration--what .concentration__title--what {
     max-inline-size: 316px;
-    padding-bottom: var(--sm-space);
   }
 
   .concentration__subtitle--what {
